@@ -11,7 +11,7 @@ int validar( char resposta, char gabarito){
         if( resposta == 'B' || resposta == 'b') return 1;
     }
     if(gabarito == 'C'){
-        if( resposta == 'C' || resposta == 'c') return 1;
+        if( resposta == 'J' || resposta == 'c') return 1;
     }
     return 0;
 }
